@@ -3,50 +3,111 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>001 | LAD Wallet Model</title>
+    <title>001 | Model Wallet</title>
     <link rel="stylesheet" href="/assets/base.css">
   </head>
   <body class="subject">
 
-<p>Credential Wallet<p>
+<header>
+  <p>Model Wallet<p>
+    <nav>
+      <a href="/index.html">Home</a>
+      <a href="#">My Account</a>
+      <button>Sign Out</button>
+    </nav>
+</header>
 
 <main>
-  <article class="wallet">
+  <article class="subject">
   <header>
+    <nav aria-label="breadcrumb">
+      <a href="/index.html">Home</a> | Subject
+      <button>Assistant</button>
+      <button>Action Plan</button>
+    </nav>
     <h1>John</h1>
-    <dl class="">
-      <dt>Street</dt>
-      <dd></dd>
-      <dt>City</dt>
-      <dd>Anytown</dd>
-      <dt>State</dt>
-      <dd>California</dd>
-      <dt>Country</dt>
-      <dd>USA</dd>
-    </dl>
+  
+    <p id="address0" class="address">
+      <div></div>
+      <span>Anytown</span>,
+      <span>California</span>
+      <span></span>
+      <span>USA</span>
+    </p>
+  
+    <p id="address1" class="address">
+      <div></div>
+      <span>Othertown</span>,
+      <span>Florida</span>
+      <span></span>
+      <span>USA</span>
+    </p>
+  
+    <button>Edit Profile</button>
   </header>
-  <!--
-  <section id="" class="national credential">
-    <h2>Social Security</h2>
-    <dl class="">
-      <dt>Name</dt>
-      <dt>SSN</dt>
-    </dl>
-  </section>
-  <section id="" class="state credential">
-    <h2>California Drivers License</h2>
-    <dl class="">
-      <dt>Name</dt>
-      <dt>License Number</dt>
-    </dl>
-  </section>
-  -->
+  <details open>
+    <summary>Credentials &ndash; <span class="count badge">2<span></summary>
+    
+    <article class="card">
+  <header>
+    <h3>Social Security Administration</h3>
+    <p>taxID</p>
+  </header>
+</article>
+
+    
+    <article class="card">
+  <header>
+    <h3>California Department of Motor Vehicles</h3>
+    <p>driversLicense</p>
+  </header>
+</article>
+
+    
+    <button>Add Credential</button>
+  </details>
+
+  <details open>
+    <summary>Assets &ndash; <span class="count badge">2<span></summary>
+    
+    <article class="card">
+  <header>
+    <h3>Bank Z</h3>
+    <p>savingsAccount</p>
+  </header>
+</article>
+
+    
+    <article class="card">
+  <header>
+    <h3>Department of Motor Vehicles</h3>
+    <p>vehicleLicense</p>
+  </header>
+</article>
+
+    
+    <button>Add Asset</button>
+  </details>
+  <details open>
+    <summary>Liabilities &ndash; <span class="count badge">1<span></summary>
+    
+      <article class="card">
+  <header>
+    <h3>Bank X</h3>
+    <p>creditCard</p>
+  </header>
+</article>
+
+    
+    <button>Add Liability</button>
+</details>
+
 </article>
 
 </main>
-  <footer>
-    <p>@copy; 2020  LAD</p>
-  </footer>
+<footer>
+  <p>&copy; Model Wallet</p>
+</footer>
 
   </body>
 </html>
