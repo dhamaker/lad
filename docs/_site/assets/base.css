@@ -67,3 +67,10 @@ article.card header * {
   margin:0;
   font-size: 1rem;
 }
+
+.badge:before {
+  content:"("
+}
+.badge:after {
+  content:")"
+}
