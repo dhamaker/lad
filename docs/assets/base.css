@@ -3,13 +3,16 @@ body {
   line-height:1.4;
   margin:0;
   padding:0;
-  max-width:48em;
+  max-width:40em;
 
 }
 main, body > header, body > footer {
   padding:.5em 1em;
   background:#fff;
   position:relative;
+}
+body > header, body > footer {
+  color:#999
 }
 body > header {
   border-bottom: 1px solid #999;
