@@ -4,15 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>002 | Model Wallet</title>
-    <link rel="stylesheet" href="//assets/base.css">
+    <link rel="stylesheet" href="/assets/base.css">
   </head>
   <body class="subject">
 
 <header>
   <p>Model Wallet<p>
     <nav>
-      <a href="//index.html">Home</a>
-      <a href="#">My Account</a>
+      <a href="/index.html">Home</a>
+      <a href="#">Settings</a>
       <button>Sign Out</button>
     </nav>
 </header>
@@ -20,11 +20,16 @@
 <main>
   <article class="subject">
   <header>
-    <nav aria-label="breadcrumb">
-      <a href="//index.html">Home</a> | Subject
-      <button>Assistant</button>
-      <button>Action Plan</button>
-    </nav>
+    <!-- navigation toolbar -->
+    <p aria-label="breadcrumb navigation">
+      <a href="/index.html">Home</a> | Subject
+    </p>
+    <p aria-label="toolbar">
+      <button>Identity Builder</button>
+      <button>Create Plan</button>
+      <a href="#">Notifications (1)</a>
+      <a href="#">Plans (0)</a>
+    </p>
     <h1>Jane Doe</h1>
   
     <p id="address2" class="address">
@@ -42,17 +47,27 @@
     
     <article class="card">
   <header>
+  <label>
+    Completed
+    <progress value="40" max="100">10%</progress>
+  </label>
     <h3>Social Security Administration</h3>
-    <p>taxID</p>
+    <p><a href="#">Social Security Card</a></p>
   </header>
+  <p>taxID</p>
 </article>
 
     
     <article class="card">
   <header>
+  <label>
+    Completed
+    <progress value="40" max="100">10%</progress>
+  </label>
     <h3>California Department of Motor Vehicles</h3>
-    <p>driversLicense</p>
+    <p><a href="#">California Drivers License</a></p>
   </header>
+  <p>driversLicense</p>
 </article>
 
     
@@ -64,17 +79,27 @@
     
     <article class="card">
   <header>
+  <label>
+    Completed
+    <progress value="40" max="100">10%</progress>
+  </label>
     <h3>Bank Z</h3>
-    <p>savingsAccount</p>
+    <p><a href="#">Bank Z VIP Savings</a></p>
   </header>
+  <p>savingsAccount</p>
 </article>
 
     
     <article class="card">
   <header>
+  <label>
+    Completed
+    <progress value="40" max="100">10%</progress>
+  </label>
     <h3>Department of Motor Vehicles</h3>
-    <p>vehicleLicense</p>
+    <p><a href="#">Ford Model T</a></p>
   </header>
+  <p>vehicleLicense</p>
 </article>
 
     

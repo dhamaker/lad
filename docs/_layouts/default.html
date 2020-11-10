@@ -7,10 +7,16 @@
         <p>Published: {{site.time | date_to_string: "ordinal", "US"}}</p>
     </header>
     {{content}}
+    <section>
+      <a href="#">Notifications (2)</a>
+    </section>
   </article>
   <section>
-    <h2>Subjects</h2>
+    <header>
+      <h2>Subjects </h2>
+    </header>
     {% include subjects-list.html %}
+    <button>Add Subject</button>
   </section>
 </main>
 {% include global-footer.html %}
